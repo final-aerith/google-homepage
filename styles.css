@@ -1,0 +1,51 @@
+nav {
+    align-self: center; 
+    text-align: right;
+    text-decoration: none;
+}
+
+nav svg {
+    height: 4vh;
+    fill: #5f6368;
+}
+
+img {
+    height: 10vh;
+    margin: 10vh auto 0 auto;
+    display: block;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.search-wrapper div{
+    height: 5vh;
+    display: flex;
+    width: 50%;
+}
+
+.search-wrapper svg {
+    position: absolute;
+    height: 3%;
+    align-self: center;
+    padding-left: 15px;
+    fill: #9aa0a6;
+}
+
+.search {
+    border: 1px solid #dadce0;
+    border-radius: 50px;
+    width: 100%;
+    height: 120%;
+    align-self: center;
+}
+
+
+.search:hover {
+    box-shadow: 1px 1px 8px #dadce0;
+    border: 1px solid #fff;
+}
