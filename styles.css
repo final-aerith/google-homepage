@@ -1,12 +1,38 @@
-nav {
-    align-self: center; 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.navbar {
     text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
+nav a {
     text-decoration: none;
+    color: #212121;
+    padding: 0 9px;
 }
 
 nav svg {
-    height: 4vh;
+    height: 3.5vh;
     fill: #5f6368;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.nav-button {
+    background-color: #1a73e8;
+    padding: 9px 23px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+
 }
 
 img {
