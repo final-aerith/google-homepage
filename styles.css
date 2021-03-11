@@ -16,7 +16,7 @@ body {
 a {
     text-decoration: none;
     color: #212121;
-    padding: 0 9px;
+    padding: 0 10px;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ nav svg {
     height: 3.5vh;
     fill: #5f6368;
     cursor: pointer;
-    padding: 0 15px;
+    padding: 8px 8px;
 }
 
 nav svg:hover {
